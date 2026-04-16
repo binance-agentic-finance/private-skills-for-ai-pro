@@ -1,0 +1,169 @@
+{
+    "intent_categories": [
+      {
+        "category": "Account and asset management",
+        "description": "Query account balances and distribution, trading status, fund verification and flow tracing, master and sub-account management, and account feature closure or refund inquiries.",
+        "covered_intents": [
+          "Query Binance account assets and trading status",
+          "Confirm main-account balance and enable BNB futures trading",
+          "Delegated operation authorization and account fund verification",
+          "Query account balance and asset distribution",
+          "Balance verification and fund flow tracing",
+          "Query account balance and trading status",
+          "Account opening and trading how-to",
+          "Account feature closure and refund inquiries"
+        ]
+      },
+      {
+        "category": "API and system authorization",
+        "description": "API key setup and configuration, authorizing AI or systems for trading, API permission and signature debugging, and resolving API configuration or call failures.",
+        "covered_intents": [
+          "Authorize AI to trade autonomously with profit targets",
+          "Prepare to authorize trading and request API key setup guidance",
+          "API key configuration and troubleshooting",
+          "Use sub-account BNB to open futures positions and fix API configuration",
+          "Binance account authorization and signature debugging",
+          "Trade commands failing—resolve signature issues",
+          "Query positions and troubleshoot API authorization",
+          "Delegated operation authorization and futures order placement"
+        ]
+      },
+      {
+        "category": "Trading strategy and execution",
+        "description": "Automated trading execution (e.g. grid, futures), open/close positions, order management, TP/SL, derivatives strategy and operations, trade execution and failure diagnosis.",
+        "covered_intents": [
+          "Seek automated quantitative trading strategies",
+          "Seek short-term robust trading strategy and market analysis",
+          "Seek short-term trade ideas and execution",
+          "Request auto-trading and clearing open orders",
+          "Discuss automated trading features",
+          "Delegated operation: auto-build BNB futures strategy",
+          "Delegated operation: open trades",
+          "Use BNB in sub-account to open futures and run best strategy",
+          "Delegated operation on futures account with short-term PnL checks",
+          "Ask when to close futures positions",
+          "Set TP/SL orders for XRPUSDC long",
+          "Request short-term ETH trading strategy",
+          "Query major crypto market data and strategy ideas",
+          "Request entry price for opening a trade",
+          "Run grid strategy and query order status",
+          "Auto-run spot grid and query order status in real time",
+          "Set up and monitor DOGE/FDUSD spot grid",
+          "Manual grid monitoring and refill orders",
+          "Auto-run DOGE/FDUSD spot grid with real-time refill monitoring",
+          "Auto-monitor and complete DOGE/FDUSD spot grid orders",
+          "Authorized automated grid with real-time refill and PnL monitoring",
+          "Query BTC market and execute a long trade"
+        ]
+      },
+      {
+        "category": "Market analysis and quotes",
+        "description": "Real-time quotes, gainers/losers scans, alt heat, technical analysis, drivers of volatility, and new-token or trend context.",
+        "covered_intents": [
+          "Query impact of Bitcoin spot ETF on same-day price",
+          "Query today’s top/bottom alt performance",
+          "Query BTC live price",
+          "Market and volatility analysis",
+          "Why Bitcoin moved—drivers analysis",
+          "Query BTC market data",
+          "Query smart-money signals and market data for major cryptos to find opportunities"
+        ]
+      },
+      {
+        "category": "On-chain data and smart-money monitoring",
+        "description": "BSC transfer lookups, smart-money signal monitoring and alerts, scheduled monitoring scripts and auto signal delivery, token security audit.",
+        "covered_intents": [
+          "Ask for a free approach to query BSC transfer history",
+          "Set up BSC smart-money monitoring script with alerts",
+          "Authorize auto-monitoring and BSC buy-signal notifications",
+          "Set automated monitoring script to send trade signals",
+          "BSC smart-money scheduled monitoring with conditional reporting",
+          "Delegated operation: auto-push smart-money signals",
+          "Deploy BSC smart-money monitoring script with alerts",
+          "BSC smart-money monitoring with auto buy signals",
+          "BSC smart-money monitoring with auto alerts",
+          "BSC smart-money monitoring and alert notifications",
+          "BSC smart-money monitoring and reporting",
+          "Monitor BSC smart-money signals and push alerts on conditions",
+          "Set BSC smart-money monitoring script",
+          "Cron job to monitor BSC buy signals and push alerts",
+          "BSC signal monitoring script with trigger conditions",
+          "BSC signal monitoring with auto buy reminders",
+          "Authorize auto-monitoring and buy-signal notifications",
+          "Automated BSC smart-money monitoring with alerts",
+          "Automated BSC smart-money monitoring with conditional push",
+          "Automated BSC buy-signal monitoring notifying specific users",
+          "Automated BSC smart-money monitoring reporting buy opportunities",
+          "Automated BSC smart-money monitoring with conditional notifications",
+          "BSC monitoring script sending signal details only on alert",
+          "Run BSC smart-money monitoring script with conditional notifications",
+          "Query smart-money signals and token analysis features",
+          "Token security audit"
+        ]
+      },
+      {
+        "category": "Token research and investment ideas",
+        "description": "Alt investment ideas, AI-theme tokens, DeFi flows, Meme market analysis, new projects, entry and sizing talk, risk/reward—not definitive advice.",
+        "covered_intents": [
+          "Seek alt investment ideas",
+          "Query new crypto opportunities and market trends",
+          "Query AI-theme crypto market data",
+          "Query DeFi protocol inflows",
+          "Discuss Meme market, new launches, and official stance",
+          "Query token opportunities and smart-money signals",
+          "Ask for risk/reward on a specific token contract",
+          "Assess risk/reward for a new token entry around 0.0008",
+          "Query PRL strategy and reasonable buy levels",
+          "Ask whether to size heavily on PRL below 0.09",
+          "Get smart-money signals and market data for top cryptos to find opportunities"
+        ]
+      },
+      {
+        "category": "Product help and feature how-to",
+        "description": "Product identity and features, how to access platform capabilities, impact of certain products on markets, and features like grid trading.",
+        "covered_intents": [
+          "Ask about Clawbot identity and features",
+          "How to access Binance AI on iOS",
+          "Query impact of Bitcoin spot ETF on same-day price",
+          "Discuss grid strategy and query order status",
+          "What is Clawbot and what can it do"
+        ]
+      },
+      {
+        "category": "Token launch and deployment",
+        "description": "Token creation, launch, deployment, contract work, and social link integration.",
+        "covered_intents": [
+          "Help create and launch a token on BNB Chain",
+          "Request delegated deploy with role naming",
+          "Deploy a custom token and integrate social links"
+        ]
+      },
+      {
+        "category": "Campaigns and incentives",
+        "description": "Platform campaigns, incentive policies, beta eligibility, and rewards-related questions.",
+        "covered_intents": [
+          "Query recent Binance campaigns and promotions",
+          "Ask about Beta incentive policy",
+          "Discuss campaign results and naming/social ideas"
+        ]
+      },
+      {
+        "category": "Content and social (Square)",
+        "description": "Writing, posting, content optimization, multilingual and scheduled posts, news aggregation, social operations.",
+        "covered_intents": [
+          "Write and publish a Binance Square post with image suggestions",
+          "Set up multilingual scheduled posting",
+          "Scrape news, optimize, and publish to Binance Square"
+        ]
+      },
+      {
+        "category": "Education and learning",
+        "description": "Study plans, reading lists, terminology, skills learning, and investing literacy.",
+        "covered_intents": [
+          "Request a full equity research study plan and reading list",
+          "Ask definitions of trading terms",
+          "Language learning and expression analysis"
+        ]
+      }
+    ]
+}
