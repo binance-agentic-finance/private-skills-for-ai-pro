@@ -15,7 +15,7 @@ metadata:
 
 Route **user request -> formal strategy spec -> standard_bot -> backtest / paper signal -> balance & risk check -> CONFIRM -> watcher subagent -> live trading**. This skill holds **routing and hard rules** only—detailed operation steps are split into `references/`.
 
-> **PREREQUISITE:** The `crypto_trading` repo (`https://github.com/nthu-chung/crypto_trading`) must be cloned and its environment bootstrapped per [`repo-bootstrap.md`](./references/repo-bootstrap.md) before any backtest, signal generation, or trading. Local historical parquet must be present and fresh; if not, use the repo's Binance K-bar download flow first. Higher-timeframe data should be resampled from local `1m` parquet—never use raw Binance API results as formal backtest input.
+> **PREREQUISITE:** The `crypto_trading` repo (`https://github.com/binance-agentic-finance/crypto_trading`) must be cloned and its environment bootstrapped per [`repo-bootstrap.md`](./references/repo-bootstrap.md) before any backtest, signal generation, or trading. Local historical parquet must be present and fresh; if not, use the repo's Binance K-bar download flow first. Higher-timeframe data should be resampled from local `1m` parquet—never use raw Binance API results as formal backtest input.
 
 ## Reference map (`references/`)
 

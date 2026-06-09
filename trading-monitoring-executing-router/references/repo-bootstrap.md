@@ -18,7 +18,7 @@
 REPO_DIR="${REPO_DIR:-$PWD/crypto_trading}"
 
 if [ ! -d "$REPO_DIR/.git" ]; then
-  git clone https://github.com/nthu-chung/crypto_trading "$REPO_DIR"
+  git clone https://github.com/binance-agentic-finance/crypto_trading "$REPO_DIR"
 fi
 
 cd "$REPO_DIR"
